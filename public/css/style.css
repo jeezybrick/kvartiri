@@ -1,0 +1,77 @@
+/* При наведенни на элемент меню не будет границ в углах */
+.nav >li >a:hover{
+    border-radius: 0;
+}
+/* Размытость в хед-картинке */
+.head_logo{
+
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.imageLeftShow{
+
+    height:170px;
+    padding: 0px;
+    outline: 1px solid #D7D7D7;
+
+    /*Эффект размытия.Больше px -больше размsтие*/
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+    -webkit-transform: translateZ(2);
+}
+.imageLeftShow a:hover{
+        /*Эффект размытия.Больше px -больше размsтие*/
+    -webkit-filter: blur(0);
+    -moz-filter: blur(0);
+    -o-filter: blur(0);
+    -ms-filter: blur(0);
+    filter: blur(0);
+    -webkit-transform: translateZ(0);
+}
+.actives {
+   
+}
+
+.actives a {
+    
+}
+li a{
+
+     color:#333;
+}
+
+ .street{
+    -ms-word-break: break-all;
+    word-break: break-all;
+
+    /* Non standard for webkit */
+    word-break: break-word;
+
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+
+    margin:0px;
+}
+.navbar a{
+    color:#333;
+}
+.right_header a{
+    color:#FF1B55;
+}
+ .btn-group .btn-default:hover,.btn-toolbar .btn-group .btn-default:active, .btn-group .btn-default.active {
+    background-color: transparent;
+    border: 1px solid #ff1b55;
+    box-shadow: none;
+}
+
+ #navbar a{
+     padding:10px;
+ }
